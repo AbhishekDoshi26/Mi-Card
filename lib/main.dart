@@ -42,10 +42,22 @@ class MyApp extends StatelessWidget {
               SizedBox(
                 height: 10.0,
               ),
+              Divider(
+                color: Colors.teal[200],
+                thickness: 4,
+                indent: 50.0,
+                endIndent: 50.0,
+              ),
+              SizedBox(
+                height: 10.0,
+              ),
               Card(
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
                   horizontal: 25.0,
+                ),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(50.0),
                 ),
                 color: Colors.white,
                 child: ListTile(
@@ -69,6 +81,9 @@ class MyApp extends StatelessWidget {
                   vertical: 10.0,
                   horizontal: 25.0,
                 ),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(50.0),
+                ),
                 color: Colors.white,
                 child: ListTile(
                   leading: Icon(
@@ -90,6 +105,9 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
                   horizontal: 25.0,
+                ),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(50.0),
                 ),
                 color: Colors.white,
                 child: ListTile(
